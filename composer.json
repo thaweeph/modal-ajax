@@ -1,20 +1,20 @@
 {
-  "name": "loveorigami/yii2-modal-ajax",
+  "name": "thaweeph/modal-ajax",
   "description": "A wrapper around Yii2 Bootstrap Modal for using an ActiveForm via AJAX inside",
   "keywords": [
     "yii2",
-    "bootstrap",
+    "bootstrap 4",
     "modal",
     "ajax-modal"
   ],
   "homepage": "https://github.com/loveorigami/yii2-modal-ajax",
-  "version": "3.8",
+  "version": "3.8.1",
   "type": "yii2-extension",
   "license": "MIT",
   "authors": [
     {
-      "name": "Karnbrock Gmbh",
-      "homepage": "http://karnbrock.biz"
+      "name": "Hulk Programmer",
+      "homepage": "http://hulk.programmer"
     },
     {
       "name": "Lukyanov Andrey",
@@ -23,7 +23,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "lo\\widgets\\modal\\": "src/"
+      "TJY\\widgets\\modal\\": "src/"
     }
   }
 }
