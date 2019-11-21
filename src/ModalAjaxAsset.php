@@ -1,6 +1,6 @@
 <?php
 
-namespace lo\widgets\modal;
+namespace TJY\widgets\modal;
 
 use yii\web\AssetBundle;
 
@@ -16,7 +16,7 @@ class ModalAjaxAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap4\BootstrapAsset',
     ];
 
     /**
