@@ -7,14 +7,14 @@
     "modal",
     "ajax-modal"
   ],
-  "homepage": "https://github.com/loveorigami/yii2-modal-ajax",
+  "homepage": "https://github.com/thaweeph",
   "version": "3.8.1",
   "type": "yii2-extension",
   "license": "MIT",
   "authors": [
     {
       "name": "Hulk Programmer",
-      "homepage": "http://hulk.programmer"
+      "homepage": "https://github.com/thaweeph"
     },
     {
       "name": "Lukyanov Andrey",
