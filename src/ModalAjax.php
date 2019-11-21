@@ -1,9 +1,9 @@
 <?php
 
-namespace lo\widgets\modal;
+namespace TJY\widgets\modal;
 
 use yii\base\InvalidConfigException;
-use yii\bootstrap\Modal;
+use yii\bootstrap4\Modal;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\web\JsExpression;
@@ -91,12 +91,12 @@ class ModalAjax extends Modal
     {
         $button = $this->renderCloseButton();
         if ($button !== null) {
-            $this->header = $button . "\n<span>" . $this->header . "</span>\n";
+            $this->title = "\n<span>" . $this->title . "</span>\n";
         }
-        if ($this->header !== null) {
+        if ($this->title !== null) {
             Html::addCssClass($this->headerOptions, ['widget' => 'modal-header']);
 
-            return Html::tag('div', "\n" . $this->header . "\n", $this->headerOptions);
+            return Html::tag('div', "\n" . $this->title . "\n", $this->headerOptions);
         } else {
             return null;
         }
