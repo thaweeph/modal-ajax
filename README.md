@@ -67,7 +67,7 @@ public function actionCreate()
 
 ### View
 ```php
-use lo\widgets\modal\ModalAjax;
+use TJY\widgets\ModalAjax;
 
 echo ModalAjax::widget([
     'id' => 'createCompany',
@@ -86,7 +86,7 @@ echo ModalAjax::widget([
 
 ### Index View - Create (Single Modal Mode)
 ```php
-use lo\widgets\modal\ModalAjax;
+use TJY\widgets\ModalAjax;
 
 echo ModalAjax::widget([
     'id' => 'createCompany',
@@ -109,7 +109,7 @@ echo ModalAjax::widget([
 
 Modal Ajax with events
 ```php
-use lo\widgets\modal\ModalAjax;
+use TJY\widgets\ModalAjax;
 
 echo ModalAjax::widget([
     'id' => 'updateCompany',
