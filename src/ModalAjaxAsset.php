@@ -1,6 +1,6 @@
 <?php
 
-namespace TJY\widgets;
+namespace TJY\widgets\modal;
 
 use yii\web\AssetBundle;
 

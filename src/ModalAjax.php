@@ -1,6 +1,6 @@
 <?php
 
-namespace TJY\widgets;
+namespace TJY\widgets\modal;
 
 use yii\base\InvalidConfigException;
 use yii\bootstrap4\Modal;

@@ -23,7 +23,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "TJY\\widgets\\": "src/"
+      "TJY\\widgets\\modal\\": "src/"
     }
   }
 }
