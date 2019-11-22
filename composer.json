@@ -1,0 +1,29 @@
+{
+  "name": "thaweeph/modal-ajax",
+  "description": "A wrapper around Yii2 Bootstrap Modal for using an ActiveForm via AJAX inside",
+  "keywords": [
+    "yii2",
+    "bootstrap4",
+    "modal",
+    "ajax-modal"
+  ],
+  "homepage": "https://github.com/thaweeph",
+  "version": "1.0",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karnbrock Gmbh",
+      "homepage": "https://github.com/thaweeph"
+    },
+    {
+      "name": "Lukyanov Andrey",
+      "homepage": "http://loveorigami.info"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TJY\\widgets\\modal\\": "src/"
+    }
+  }
+}
